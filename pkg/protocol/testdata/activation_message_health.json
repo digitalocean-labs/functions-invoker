@@ -1,0 +1,32 @@
+{
+  "action": {
+    "name": "invokerHealthTestAction0",
+    "path": "whisk.system",
+    "version": "0.0.1"
+  },
+  "activationId": "b06a31ee5b6c4b48aa31ee5b6cdb48bf",
+  "blocking": false,
+  "initArgs": [],
+  "lockedArgs": {},
+  "revision": null,
+  "rootControllerIndex": {
+    "asString": "0"
+  },
+  "transid": [
+    "sid_invokerHealth",
+    1669228564541
+  ],
+  "user": {
+    "authkey": {
+      "api_key": "48674879-9994-42a3-a748-79999442a356:j8DmUChNjIoQ8nygYAcCspZQRXpj2mw3Whq6dpYdmYI79xiwXhAWyGgmFZ835za9"
+    },
+    "limits": {},
+    "namespace": {
+      "annotations": [],
+      "name": "whisk.system",
+      "uuid": "48674879-9994-42a3-a748-79999442a356"
+    },
+    "rights": [],
+    "subject": "whisk.system"
+  }
+}

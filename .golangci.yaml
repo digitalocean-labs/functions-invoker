@@ -1,0 +1,68 @@
+run:
+  timeout: 5m
+
+linters:
+  disable-all: true
+  enable:
+    - asciicheck
+    - bidichk
+    - bodyclose
+    - depguard
+    - dupword
+    - durationcheck
+    - errcheck
+    - errname
+    - errorlint
+    - exportloopref
+    - forcetypeassert
+    - goconst
+    - gocritic
+    - godot
+    - gofmt
+    - goimports
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - ireturn
+    - loggercheck
+    - makezero
+    - misspell
+    - nilerr
+    - nilnil
+    - noctx
+    - nolintlint
+    - nosprintfhostport
+    - prealloc
+    - predeclared
+    - revive
+    - staticcheck
+    - stylecheck
+    - tenv
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - usestdlibvars
+
+linters-settings:
+  depguard:
+    rules:
+      main:
+        deny:
+          - pkg: github.com/rs/zerolog/log
+            desc: Do not use the global logger. Pass an instance instead.
+
+  ireturn:
+    allow:
+      # These are allowed by default.
+      - anon
+      - error
+      - empty
+      - stdlib
+      # We allow this as well as we need it for building a factory.
+      - invoker/pkg/exec.Container
+      # Needed for testing listers.
+      - k8s.io/client-go/listers/core/v1.ServiceNamespaceLister
+      - k8s.io/client-go/listers/core/v1.EndpointsNamespaceLister
+      - k8s.io/apimachinery/pkg/runtime.Object

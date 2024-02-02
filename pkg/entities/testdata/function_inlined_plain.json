@@ -1,0 +1,23 @@
+{
+  "_id": "whisk.system/invokerHealthTestAction0",
+  "_rev": "2-9de950245040a7ee8bdeff1a564039b6",
+  "annotations": [],
+  "entityType": "action",
+  "exec": {
+    "kind": "nodejs:14",
+    "code": "function main(params) { return params; }",
+    "binary": false
+  },
+  "limits": {
+    "concurrency": 1,
+    "logs": 16,
+    "memory": 128,
+    "timeout": 3000
+  },
+  "name": "invokerHealthTestAction0",
+  "namespace": "whisk.system",
+  "parameters": [],
+  "publish": false,
+  "updated": 1668264972915,
+  "version": "0.0.1"
+}

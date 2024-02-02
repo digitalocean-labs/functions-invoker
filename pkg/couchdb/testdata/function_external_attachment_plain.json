@@ -1,0 +1,44 @@
+{
+  "_id": "testuser/test",
+  "_rev": "2-fef0470d0c8b9af269cb081dcd9c4fbc",
+  "annotations": [
+    {
+      "key": "provide-api-key",
+      "value": false
+    },
+    {
+      "key": "exec",
+      "value": "nodejs:14"
+    }
+  ],
+  "entityType": "action",
+  "exec": {
+    "kind": "nodejs:14",
+    "code": {
+      "attachmentName": "couch:a184456c-a0b8-4291-8445-6ca0b822917f",
+      "attachmentType": "text/plain; charset=UTF-8"
+    },
+    "binary": false
+  },
+  "limits": {
+    "concurrency": 1,
+    "logs": 16,
+    "memory": 256,
+    "timeout": 3000
+  },
+  "name": "test",
+  "namespace": "testuser",
+  "parameters": [],
+  "publish": false,
+  "updated": 1669301814589,
+  "version": "0.0.1",
+  "_attachments": {
+    "a184456c-a0b8-4291-8445-6ca0b822917f": {
+      "content_type": "text/plain; charset=UTF-8",
+      "revpos": 2,
+      "digest": "md5-VvDJe59ydFXHmw293IPGaQ==",
+      "length": 18589,
+      "stub": true
+    }
+  }
+}

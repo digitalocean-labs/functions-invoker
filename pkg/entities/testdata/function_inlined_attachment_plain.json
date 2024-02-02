@@ -1,0 +1,37 @@
+{
+  "_id": "testuser/test",
+  "_rev": "1-fd74500d8e3efafad983840fe12f84f4",
+  "annotations": [
+    {
+      "key": "provide-api-key",
+      "value": false
+    },
+    {
+      "key": "exec",
+      "value": "nodejs:14"
+    }
+  ],
+  "entityType": "action",
+  "exec": {
+    "kind": "nodejs:14",
+    "code": {
+      "attachmentName": "mem:ZnVuY3Rpb24gbWFpbigpIHsgcmV0dXJuIHt9IH0=",
+      "attachmentType": "text/plain; charset=UTF-8",
+      "digest": "sha256-862ef57c0e4268e96ebcb000acc125476f81812c72f1358578b500b727975525",
+      "length": 29
+    },
+    "binary": false
+  },
+  "limits": {
+    "concurrency": 1,
+    "logs": 16,
+    "memory": 256,
+    "timeout": 3000
+  },
+  "name": "test",
+  "namespace": "testuser",
+  "parameters": [],
+  "publish": false,
+  "updated": 1669298862924,
+  "version": "0.0.1"
+}

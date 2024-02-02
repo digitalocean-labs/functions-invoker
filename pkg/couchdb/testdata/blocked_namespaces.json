@@ -1,0 +1,21 @@
+{
+  "total_rows": 1,
+  "offset": 0,
+  "rows": [
+    {
+      "id": "denylisttest/extension",
+      "key": "denylisttest",
+      "value": 1
+    },
+    {
+      "id": "denylisttest2/extension",
+      "key": "denylisttest2",
+      "value": 1
+    },
+    {
+      "id": "denylisttest3/extension",
+      "key": "denylisttest3",
+      "value": 1
+    }
+  ]
+}

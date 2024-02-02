@@ -1,0 +1,66 @@
+{
+  "activationId": "c0593b9885c14477993b9885c1a477da",
+  "annotations": [
+    {
+      "key": "entry",
+      "value": "main"
+    },
+    {
+      "key": "gbs",
+      "value": 0
+    },
+    {
+      "key": "initTime",
+      "value": 451
+    },
+    {
+      "key": "kind",
+      "value": "nodejs:18"
+    },
+    {
+      "key": "limits",
+      "value": {
+        "logs": 16,
+        "memory": 1024,
+        "timeout": 120000
+      }
+    },
+    {
+      "key": "path",
+      "value": "fnsystem/builder/build_nodejs_18"
+    },
+    {
+      "key": "timeout",
+      "value": false
+    },
+    {
+      "key": "waitTime",
+      "value": 802
+    }
+  ],
+  "duration": 14386,
+  "end": 1669718354725,
+  "logs": [
+    "2022-11-29T10:39:00.353006633Z stdout: cmd: dosls deploy slice:builds/fnsystem/sample_hello-nodejszip/2022-11-29T10-38-57.763Z"
+  ],
+  "name": "build_nodejs_18",
+  "namespace": "testnamespace",
+  "publish": false,
+  "response": {
+    "result": {
+      "outcome": {
+        "actionVersions": {
+          "sample/hello-nodejszip": {
+            "digest": "f28f6882ddf3ba0dd865d22653140efc03dd8a74084e1c4deb69c1135f9cd6f9",
+            "version": "0.0.11"
+          }
+        }
+      }
+    },
+    "size": 154,
+    "statusCode": 0
+  },
+  "start": 1669718340339,
+  "subject": "testsubject",
+  "version": "0.0.1"
+}

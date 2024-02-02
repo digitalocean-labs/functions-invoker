@@ -1,0 +1,65 @@
+{
+  "activationId": "d0c896443b3a49e68896443b3ae9e632",
+  "annotations": [
+    {
+      "key": "binding",
+      "value": "abinding"
+    },
+    {
+      "key": "entry",
+      "value": "main"
+    },
+    {
+      "key": "gbs",
+      "value": 0.025
+    },
+    {
+      "key": "initTime",
+      "value": 21
+    },
+    {
+      "key": "kind",
+      "value": "nodejs:14"
+    },
+    {
+      "key": "limits",
+      "value": {
+        "logs": 16,
+        "memory": 256,
+        "timeout": 3000
+      }
+    },
+    {
+      "key": "path",
+      "value": "testnamespace/testfunction"
+    },
+    {
+      "key": "thisis",
+      "value": "atest"
+    },
+    {
+      "key": "timeout",
+      "value": false
+    },
+    {
+      "key": "waitTime",
+      "value": 203
+    }
+  ],
+  "duration": 31,
+  "end": 1669716867796,
+  "logs": [
+    "2022-11-29T10:14:27.785433679Z stdout: hello world"
+  ],
+  "name": "testfunction",
+  "namespace": "testnamespace",
+  "publish": false,
+  "response": {
+    "result": {"hello":"world"},
+    "size": 17,
+    "statusCode": 0
+  },
+  "start": 1669716867765,
+  "subject": "testsubject",
+  "version": "0.0.2"
+}

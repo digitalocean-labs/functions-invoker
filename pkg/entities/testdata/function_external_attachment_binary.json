@@ -1,0 +1,44 @@
+{
+  "_id": "testuser/test",
+  "_rev": "3-c248e72dbdc2db2ac1cc5e1d3b965206",
+  "annotations": [
+    {
+      "key": "provide-api-key",
+      "value": false
+    },
+    {
+      "key": "exec",
+      "value": "nodejs:14"
+    }
+  ],
+  "entityType": "action",
+  "exec": {
+    "kind": "nodejs:14",
+    "code": {
+      "attachmentName": "couch:50ddbba2-b12b-4a62-9dbb-a2b12bba62c1",
+      "attachmentType": "application/octet-stream"
+    },
+    "binary": true
+  },
+  "limits": {
+    "concurrency": 1,
+    "logs": 16,
+    "memory": 256,
+    "timeout": 3000
+  },
+  "name": "test",
+  "namespace": "testuser",
+  "parameters": [],
+  "publish": false,
+  "updated": 1669301529151,
+  "version": "0.0.1",
+  "_attachments": {
+    "50ddbba2-b12b-4a62-9dbb-a2b12bba62c1": {
+      "content_type": "application/octet-stream",
+      "revpos": 3,
+      "digest": "md5-D91b1hxoAU/bFXPyIECOfg==",
+      "length": 174422,
+      "stub": true
+    }
+  }
+}

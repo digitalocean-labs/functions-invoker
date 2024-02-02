@@ -1,0 +1,60 @@
+{
+  "action": {
+    "name": "TestFunctionInvocations__overrides_predefined_parameters-kNMzNSxmK",
+    "path": "fn-test-28620",
+    "version": "0.0.1",
+    "binding": "abinding"
+  },
+  "activationId": "40547988d96d441e947988d96d141e6f",
+  "blocking": true,
+  "content": {
+    "obj": "AAAAgLssSJAD6XMe1qG/nFjlcbKN3aSO/yL3ogxhQr6pzB50fzW4KYshptBSmnjc3rwBaoISToATJataq61saLWhPeiwclhHe3n3mPFeERMewsQ925c4lhKMxLROZ8X5w6FucPiikkEmuWfdX+PU9jNFvFBsBJCenHEZBXKPEITc1Sog8zNITltl+jZCmF/eUVpQOjq0SY9Mmx1vQG0ps6L9p9Ylk8Rtk9M=",
+    "num": 8.7,
+    "array": [
+      1.1,
+      "anotherstr"
+    ],
+    "str": "AAAAgAUgVKdrh5IBK0Uu+Qe+v6FP/uJ0nd3ugI214FedZeeo2KK5rlonnsxwLELh9CK2s9t5bJ+UGtY6NjApih1z064R909ZEN5+3JZCUvg9FmEXQk4kFqnLuXsK5VscrdbzAnL18DD7rFPkPWHsuvT2y19wQuD+UP4Nyrvb/XaZmFh4m4IdAvhNxpIcmQW5E/1uOT/OXvz2IggTCUjEtGUL3zZxLFxPrw==",
+    "added": "this is new!",
+    "bool": true
+  },
+  "initArgs": ["str", "num"],
+  "lockedArgs": {
+    "obj": "aes-256",
+    "str": "aes-256"
+  },
+  "revision": "1-c8cf59c129b0676039b545dc54e9d7ae",
+  "rootControllerIndex": {
+    "asString": "0"
+  },
+  "transid": [
+    "e2d2aa85b5115fda86524d25f3a0fded",
+    1669276664249
+  ],
+  "user": {
+    "authkey": {
+      "api_key": "7759a935-e45c-4752-86fd-f5d216c6437f:i2NDjgGTGibl4jYKrHwjtYr8UMXX57KqhXKTN4dDmJtQYLqkfNlxpvjm3ABftnpE"
+    },
+    "limits": {
+      "maxTimeout": 900000,
+      "storeActivations": false
+    },
+    "namespace": {
+      "annotations": [
+        {
+          "key": "thisis",
+          "value": "atest"
+        }
+      ],
+      "name": "fn-test-28620-namespace",
+      "uuid": "7759a935-e45c-4752-86fd-f5d216c6437f"
+    },
+    "rights": [
+      "READ",
+      "PUT",
+      "DELETE",
+      "ACTIVATE"
+    ],
+    "subject": "fn-test-28620-subject"
+  }
+}
