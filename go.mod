@@ -3,7 +3,7 @@ module invoker
 go 1.21
 
 require (
-	github.com/docker/docker v24.0.5+incompatible
+	github.com/docker/docker v24.0.7+incompatible
 	github.com/docker/go-units v0.5.0
 	github.com/go-logr/zerologr v1.2.3
 	github.com/golang/mock v1.6.0
